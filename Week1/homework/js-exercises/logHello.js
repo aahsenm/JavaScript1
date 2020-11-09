@@ -1,14 +1,12 @@
-"use strict";
+'use strict';
 
-let english = 'Hello World!' ;
-let german= 'Hallo Welt!' ;
-let turkish= 'Merhaba Dunya!';
-let dutch= 'Hallo Wereld!';
-let spanish= 'Olá Mundo!' ;
-let italian= 'Ciao mondo!' ;
-let french= 'Bonjour le monde!' ;
-let turkmen= 'salam dünýä!' ;
-let russian= 'Привет мир!' ;
-let latin= 'salve mundi!' ;
-
-console.log(english, german, turkish, dutch, spanish, italian, french, turkmen, russian, latin)
+console.log('Hello World!'); //english 
+console.log('Hallo Welt!');  //german
+console.log('Merhaba Dunya!'); //turkish
+console.log('Hallo Wereld!'); //dutch
+console.log('Olá Mundo!'); //spanish
+console.log('Ciao mondo!'); //italian
+console.log('Bonjour le monde!'); //french
+console.log('salam dünýä!'); //turkmen
+console.log('Привет мир!'); //russian
+console.log('salve mundi!'); //latin
