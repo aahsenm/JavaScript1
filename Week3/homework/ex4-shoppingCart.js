@@ -4,7 +4,9 @@ let shoppingCarts = ['bananas', 'milk'];
 
 function addToShoppingCart(groceryItem) {
 
-    shoppingCarts + shoppingCarts.push(groceryItem);
+    //After feedback of @dardecana, I found the extra information that is not needed. 
+    //I changed the line, I hope it is better now.
+    shoppingCarts.push(groceryItem);
 
     if(shoppingCarts.length > 3){ 
         shoppingCarts.shift();
